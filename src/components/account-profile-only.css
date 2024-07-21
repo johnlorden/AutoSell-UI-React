@@ -1,0 +1,14 @@
+.account-profile-only-container {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.account-profile-only-image1 {
+  right: 0px;
+  bottom: -25px;
+  margin: auto;
+}
+

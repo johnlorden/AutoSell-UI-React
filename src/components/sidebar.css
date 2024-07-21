@@ -1,0 +1,122 @@
+.sidebar-container {
+  position: absolute;
+}
+.sidebar-container1 {
+  display: contents;
+}
+.sidebar-icon {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-dashboard-text {
+  width: 100%;
+}
+.sidebar-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text {
+  width: 100%;
+}
+.sidebar-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text1 {
+  width: 100%;
+}
+.sidebar-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text2 {
+  width: 100%;
+}
+.sidebar-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text3 {
+  width: 100%;
+}
+.sidebar-icon10 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text4 {
+  width: 100%;
+}
+.sidebar-button5 {
+  transition: 0.3s;
+}
+
+.sidebar-icon12 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text5 {
+  width: 100%;
+}
+.sidebar-button6 {
+  transition: 0.3s;
+}
+
+.sidebar-icon14 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text6 {
+  width: 100%;
+}
+.sidebar-button7 {
+  transition: 0.3s;
+}
+
+.sidebar-icon16 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text7 {
+  width: 100%;
+}
+.sidebar-root-class-name {
+  top: 0px;
+  left: 0px;
+}
+
+.sidebar-root-class-name2 {
+  top: 0px;
+  flex: 1;
+  left: 0px;
+  height: auto;
+}
+
+
+@media(max-width: 991px) {
+  .sidebar-root-class-name {
+    display: none;
+  }
+  .sidebar-root-class-name2 {
+    display: none;
+  }
+  .sidebar-root-class-name4 {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .sidebar-container {
+    display: none;
+  }
+  .sidebar-root-class-name {
+    display: flex;
+  }
+  .sidebar-root-class-name1 {
+    display: none;
+  }
+  .sidebar-root-class-name2 {
+    display: flex;
+  }
+  .sidebar-root-class-name3 {
+    display: none;
+  }
+}

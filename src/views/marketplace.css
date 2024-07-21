@@ -1,0 +1,129 @@
+.marketplace-container {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.marketplace-container1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marketplace-image {
+  width: auto;
+  display: none;
+  min-width: auto;
+  min-height: 30px;
+  object-fit: cover;
+}
+.marketplace-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.marketplace-navlink {
+  padding-top: 0.6rem;
+  border-radius: 15px;
+  padding-bottom: 0.6rem;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.marketplace-navlink1 {
+  padding-top: 0.6rem;
+  border-radius: 15px;
+  padding-bottom: 0.6rem;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.marketplace-navlink2 {
+  padding-top: 0.6rem;
+  border-radius: 15px;
+  padding-bottom: 0.6rem;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.marketplace-navlink3 {
+  padding-top: 0.6rem;
+  border-radius: 15px;
+  padding-bottom: 0.6rem;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.marketplace-container3 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.marketplace-navlink4 {
+  display: flex;
+  padding-top: 0.6rem;
+  border-radius: 15px;
+  flex-direction: row;
+  padding-bottom: 0.6rem;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.marketplace-icon {
+  width: 24px;
+  height: 24px;
+}
+.marketplace-navlink5 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.marketplace-icon02 {
+  width: 24px;
+  height: 24px;
+}
+.marketplace-icon04 {
+  width: 24px;
+  height: 24px;
+}
+.marketplace-icon06 {
+  width: 24px;
+  height: 24px;
+}
+.marketplace-navlink7 {
+  display: flex;
+  padding-top: 0.6rem;
+  border-radius: 15px;
+  flex-direction: row;
+  padding-bottom: 0.6rem;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.marketplace-icon08 {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 1600px) {
+  .marketplace-image {
+    display: none;
+  }
+}
+@media(max-width: 1200px) {
+  .marketplace-image {
+    display: flex;
+  }
+  .marketplace-image1 {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .marketplace-navlink4 {
+    padding-left: 1rem;
+  }
+  .marketplace-navlink5 {
+    padding-left: 1rem;
+  }
+  .marketplace-navlink7 {
+    padding-left: 1rem;
+  }
+}
